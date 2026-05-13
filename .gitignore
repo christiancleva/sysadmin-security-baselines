@@ -1,0 +1,10 @@
+# Escludi la cartella delle impostazioni di Obsidian
+.obsidian/
+
+# Escludi file temporanei o di sistema
+.DS_Store
+Thumbs.db
+
+# Escludi eventuali file di log o variabili d'ambiente con password
+*.log
+.env
