@@ -4,6 +4,7 @@
 # Escludi file temporanei o di sistema
 .DS_Store
 Thumbs.db
+Dashboard.md
 
 # Escludi eventuali file di log o variabili d'ambiente con password
 *.log
