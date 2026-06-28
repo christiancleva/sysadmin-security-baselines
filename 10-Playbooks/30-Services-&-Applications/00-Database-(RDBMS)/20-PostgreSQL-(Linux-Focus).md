@@ -3,20 +3,10 @@ type: Playbook
 id: SEC-PG-20
 title: PostgreSQL (Linux Focus)
 frameworks:
-  - nist_csf_2:
-      - PR.DS-01
-      - PR.AC-01
-      - PR.PT-01
-  - nis2:
-      - Art. 21.2.a
-      - Art. 21.2.c
-  - gdpr:
-      - Art. 32.1.a
-      - Art. 32.1.b
-  - cis_control:
-      - v8 3.3
-      - v8 4.1
-      - v8 6.2
+  - "nist_csf_2: (PR.DS-01, PR.AC-01, PR.PT-01)"
+  - "nis2: (Art. 21.2.a, Art. 21.2.c)"
+  - "gdpr: (Art. 32.1.a, Art. 32.1.b)"
+  - "cis_control: (v8 3.3, v8 4.1, v8 6.2)"
 scope:
   - Database
   - RDBMS

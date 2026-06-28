@@ -1,18 +1,19 @@
 ---
 type: Playbook
 id: SEC-PVE-01
-title: "Proxmox VE"
+title: Proxmox VE
 frameworks:
-- nist_csf_2: [PR.PS-01, PR.AC-03, PR.DS-01]
-- nis2: [Art. 21.2.a, Art. 21.2.c, Art. 21.2.g]
-- gdpr: [Art. 32]
-- cis_control: [v8 3.3, v8 4.1, v8 5.1]
-scope: [Hypervisor, Virtualization]
+  - "nist csf 2 (PR.PS-01, PR.AC-03, PR.DS-01)"
+  - "nis2 (Art. 21.2.a, Art. 21.2.c, Art. 21.2.g)"
+  - "gdpr (Art. 32)"
+  - "cis control (v8 3.3, v8 4.1, v8 5.1)"
+scope:
+  - Hypervisor
+  - Virtualization
 priority: P0 - Mission Critical
 status: Draft
 last_review: 2026-05-09
 auditable: true
-Dependencies: [[10 Proxmox Backup Server (PBS)]]
 ---
 
 ## 1. Executive Summary

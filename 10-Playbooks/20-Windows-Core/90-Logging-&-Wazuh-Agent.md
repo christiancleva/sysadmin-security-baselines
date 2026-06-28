@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-WIN-90
 title: "Logging & Wazuh Agent (Windows)"
 frameworks:
-- nist_csf_2: [DE.CM-01, DE.CM-03, PR.PT-01]
-- nis2: [Art. 21.2.e, Art. 21.2.f]
-- gdpr: [Art. 32]
-- cis_control: [v8 8.1, v8 8.2, v8 8.3, v8 8.5]
+- "nist csf 2 (DE.CM-01, DE.CM-03, PR.PT-01)"
+- "nis2 (Art. 21.2.e, Art. 21.2.f)"
+- "gdpr (Art. 32)"
+- "cis control (v8 8.1, v8 8.2, v8 8.3, v8 8.5)"
 scope: [Windows Core, Auditing, SIEM, SOC]
 priority: P0 - Critical
 status: Draft

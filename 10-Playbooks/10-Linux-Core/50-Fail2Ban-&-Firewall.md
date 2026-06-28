@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-LX-50
 title: "Fail2Ban & Firewall (Active Defense)"
 frameworks:
-- nist_csf_2: [PR.NW-01, PR.NW-02, DE.AE-01]
-- nis2: [Art. 21.2.a, Art. 21.2.e]
-- gdpr: [Art. 32 (Technical measures)]
-- cis_control: [v8 1.1, v8 4.4, v8 12.8]
+- "nist csf 2 (PR.NW-01, PR.NW-02, DE.AE-01)"
+- "nis2 (Art. 21.2.a, Art. 21.2.e)"
+- "gdpr (Art. 32 (Technical measures))"
+- "cis control (v8 1.1, v8 4.4, v8 12.8)"
 scope: [Network Security, Linux Core, IDS/IPS]
 priority: P1 - High
 status: Draft

@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-LX-10
 title: "Data-at-Rest Encryption (Linux)"
 frameworks:
-- nist_csf_2: [PR.DS-01, PR.DS-10]
-- nis2: [Art. 21.2.c, Art. 21.2.g]
-- gdpr: [Art. 32.1.a]
-- cis_control: [v8 3.11]
+- "nist csf 2 (PR.DS-01, PR.DS-10)"
+- "nis2 (Art. 21.2.c, Art. 21.2.g)"
+- "gdpr (Art. 32.1.a)"
+- "cis control (v8 3.11)"
 scope: [OS, Storage, Privacy]
 priority: P0 - Critical
 status: Draft

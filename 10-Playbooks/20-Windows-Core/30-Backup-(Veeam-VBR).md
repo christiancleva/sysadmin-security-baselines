@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-BAK-VEEAM
 title: "Veeam Backup and Replication"
 frameworks:
-- nist_csf_2: [PR.DS-11, RC.RP-01, PR.AC-01]
-- nis2: [Art. 21.2.c, Art. 21.2.e]
-- gdpr: [Art. 32.1.c]
-- cis_control: [v8 11.1, v8 11.2, v8 11.5]
+- "nist csf 2 (PR.DS-11, RC.RP-01, PR.AC-01)"
+- "nis2 (Art. 21.2.c, Art. 21.2.e)"
+- "gdpr (Art. 32.1.c)"
+- "cis control (v8 11.1, v8 11.2, v8 11.5)"
 scope: [Backup Infrastructure, DR, Data Integrity]
 priority: P0 - Mission Critical
 status: Draft

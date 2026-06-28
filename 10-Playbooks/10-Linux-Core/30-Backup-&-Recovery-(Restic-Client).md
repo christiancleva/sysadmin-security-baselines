@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-LX-30
 title: "Backup & Recovery (Restic Client)"
 frameworks:
-- nist_csf_2: [PR.DS-11, RC.RP-01]
-- nis2: [Art. 21.2.c (Business continuity), Art. 21.2.e]
-- gdpr: [Art. 32.1.c]
-- cis_control: [v8 11.1, v8 11.3, v8 11.4]
+- "nist csf 2 (PR.DS-11, RC.RP-01)"
+- "nis2 (Art. 21.2.c (Business continuity), Art. 21.2.e)"
+- "gdpr (Art. 32.1.c)"
+- "cis control (v8 11.1, v8 11.3, v8 11.4)"
 scope: [Data Integrity, Disaster Recovery, Linux Core]
 priority: P0 - Critical
 status: Draft

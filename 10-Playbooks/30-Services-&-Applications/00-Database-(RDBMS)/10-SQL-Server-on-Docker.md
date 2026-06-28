@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-SQL-DOCKER
 title: "SQL Server on Docker"
 frameworks:
-- nist_csf_2: [PR.DS-01, PR.PS-06]
-- nis2: [Art. 21.2.a, Art. 21.2.f]
-- gdpr: [Art. 32]
-- cis_control: [v8 18.1, v8 3.3]
+- "nist_csf_2: (PR.DS-01, PR.PS-06)"
+- "nis2: (Art. 21.2.a, Art. 21.2.f)"
+- "gdpr: (Art. 32)"
+- "cis_control: (v8 18.1, v8 3.3)"
 scope: [Database, Docker, MSSQL, Linux]
 priority: P1 - High
 status: Draft

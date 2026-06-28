@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-WIN-10
 title: "BitLocker & Security Policies"
 frameworks:
-- nist_csf_2: [PR.DS-01, PR.AC-01, PR.AC-03]
-- nis2: [Art. 21.2.a, Art. 21.2.c]
-- gdpr: [Art. 32.1.a (Encryption)]
-- cis_control: [v8 3.11, v8 4.1, v8 5.2]
+- "nist csf 2 (PR.DS-01, PR.AC-01, PR.AC-03)"
+- "nis2 (Art. 21.2.a, Art. 21.2.c)"
+- "gdpr (Art. 32.1.a (Encryption))"
+- "cis control (v8 3.11, v8 4.1, v8 5.2)"
 scope: [Windows Core, Encryption, Access Control]
 priority: P0 - Critical
 status: Draft

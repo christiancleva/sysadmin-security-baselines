@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-PBS-01
 title: "Proxmox Backup Server (PBS)"
 frameworks:
-- nist_csf_2: PR.DS-11, RC.RP-01
-- nis2: Art. 21.2.c (Business Continuity) Art. 21.2.e
-- gdpr: Art. 32.1.c (Availability/Resilience)
-- cis_control: v8 11.1, v8 11.2
+- "nist csf 2 (PR.DS-11, RC.RP-01)"
+- "nis2 (Art. 21.2.c (Business Continuity) Art. 21.2.e)"
+- "gdpr (Art. 32.1.c (Availability/Resilience))"
+- "cis control (v8 11.1, v8 11.2)"
 scope: [Backup, Storage, Disaster Recovery]
 priority: P0 - Mission Critical
 status: Draft

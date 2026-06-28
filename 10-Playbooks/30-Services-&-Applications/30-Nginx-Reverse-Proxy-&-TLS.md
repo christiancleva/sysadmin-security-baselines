@@ -3,11 +3,11 @@ type: Playbook
 id: SEC-NET-NGINX
 title: "Nginx Reverse Proxy & TLS"
 frameworks:
-- nist_csf_2: [PR.NW-01, PR.NW-02, PR.PT-04]
-- nis2: [Art. 21.2.a (Network security), Art. 21.2.e]
-- gdpr: [Art. 32 (Encryption in transit)]
-- cis_control: [v8 12.2, v8 12.3]
-scope: [Edge Security, Networking, TLS/SSL]
+- "nist_csf_2: (PR.NW-01, PR.NW-02, PR.PT-04)"
+- "nis2: (Art. 21.2.a (Network security), Art. 21.2.e)"
+- "gdpr: (Art. 32 (Encryption in transit))"
+- "cis_control: (v8 12.2, v8 12.3)"
+scope: [Edge Security, Networking, TLS/SSL)"
 priority: P0 - Critical
 status: Draft
 last_review: 2026-05-09

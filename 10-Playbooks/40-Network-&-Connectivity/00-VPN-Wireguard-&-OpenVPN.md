@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-NET-VPN
 title: "VPN Wireguard & OpenVPN"
 frameworks:
-- nist_csf_2: [PR.NW-03, PR.AC-03]
-- nis2: [Art. 21.2.a (Access control), Art. 21.2.e]
-- gdpr: [Art. 32 (Confidentiality)]
-- cis_control: [v8 4.1, v8 12.8]
+- "nist_csf_2: (PR.NW-03, PR.AC-03)"
+- "nis2: (Art. 21.2.a (Access control), Art. 21.2.e)"
+- "gdpr: (Art. 32 (Confidentiality))"
+- "cis_control: (v8 4.1, v8 12.8)"
 scope: [Remote Access, Networking, VPN, Encryption]
 priority: P0 - Critical
 status: Draft

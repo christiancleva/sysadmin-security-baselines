@@ -1,16 +1,21 @@
 ---
 type: Playbook
 id: SEC-PVE-NET
-title: "Proxmox VE Networking & SDN"
+title: Proxmox VE Networking & SDN
 frameworks:
-- nist_csf_2: [PR.NW-01, PR.NW-02]
-- nis2: [Art. 21.2.a (Network Security)]
-- gdpr: [Art. 32 (Data isolation)]
-- cis_control: [v8 12.1, v8 12.2]
-scope: [Networking, SDN, VLAN, Firewall]
+  - "nist csf 2 (PR.NW-01, PR.NW-02)"
+  - "nis2 (Art. 21.2.a (Network Security))"
+  - "gdpr (Art. 32 (Data isolation))"
+  - "cis control (v8 12.1, v8 12.2)"
+scope:
+  - Networking
+  - SDN
+  - VLAN
+  - Firewall
 priority: P1 - High
 status: Draft
 last_review: 2026-05-09
+auditable: true
 ---
 
 ## 1. Executive Summary

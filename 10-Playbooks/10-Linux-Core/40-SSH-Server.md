@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-LX-40
 title: "SSH Server"
 frameworks:
-- nist_csf_2: [PR.AC-01, PR.AC-03, PR.AC-05]
-- nis2: [Art. 21.2.a (Access control)]
-- gdpr: [Art. 32 (Confidentiality)]
-- cis_control: [v8 4.1, v8 5.2, v8 12.8]
+- "nist csf 2 (PR.AC-01, PR.AC-03, PR.AC-05)"
+- "nis2 (Art. 21.2.a (Access control))"
+- "gdpr (Art. 32 (Confidentiality))"
+- "cis control (v8 4.1, v8 5.2, v8 12.8)"
 scope: [Access Control, Identity, Linux Core]
 priority: P0 - Critical
 status: Draft

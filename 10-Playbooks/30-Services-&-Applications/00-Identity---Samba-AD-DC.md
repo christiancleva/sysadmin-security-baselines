@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-APP-00
 title: "Identity - Samba AD DC"
 frameworks:
-- nist_csf_2: [PR.AC-01, PR.AC-03, PR.AC-06, PR.PS-01]
-- nis2: [Art. 21.2.a (Access control), Art. 21.2.g]
-- gdpr: [Art. 32 (Confidentiality/Integrity)]
-- cis_control: [v8 5.1, v8 6.1, v8 6.2]
+- "nist_csf_2: (PR.AC-01, PR.AC-03, PR.AC-06, PR.PS-01)"
+- "nis2: (Art. 21.2.a (Access control), Art. 21.2.g)"
+- "gdpr: (Art. 32 (Confidentiality/Integrity))"
+- "cis_control: (v8 5.1, v8 6.1, v8 6.2)"
 scope: [Identity, Authentication, Directory Services]
 priority: P0 - Mission Critical
 status: Draft

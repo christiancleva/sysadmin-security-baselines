@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-WIN-00
 title: "Partitioning & ReFS (SQL/FileServer)"
 frameworks:
-- nist_csf_2: [PR.DS-01, PR.DS-10, PR.PS-01]
-- nis2: [Art. 21.2.c (Business continuity), Art. 21.2.e]
-- gdpr: [Art. 32.1.c (Integrity)]
-- cis_control: [v8 3.3, v8 11.3]
+- "nist csf 2 (PR.DS-01, PR.DS-10, PR.PS-01)"
+- "nis2 (Art. 21.2.c (Business continuity), Art. 21.2.e)"
+- "gdpr (Art. 32.1.c (Integrity))"
+- "cis control (v8 3.3, v8 11.3)"
 scope: [Windows Core, Storage, SQL, File Server]
 priority: P1 - High
 status: Draft

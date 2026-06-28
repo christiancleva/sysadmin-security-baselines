@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-LX-20
 title: "OS Update & Repositories (Linux)"
 frameworks:
-- nist_csf_2: [PR.PS-02, PR.PS-05]
-- nis2: [Art. 21.2.f (Vulnerability handling)]
-- gdpr: [Art. 32]
-- cis_control: [v8 7.1, v8 7.2, v8 7.4]
+- "nist csf 2 (PR.PS-02, PR.PS-05)"
+- "nis2 (Art. 21.2.f (Vulnerability handling))"
+- "gdpr (Art. 32)"
+- "cis control (v8 7.1, v8 7.2, v8 7.4)"
 scope: [Vulnerability Management, Patching]
 priority: P0 - Critical
 status: Draft

@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-AD-01
 title: "Active Directory Domain Services"
 frameworks:
-- nist_csf_2: [PR.AC-01, PR.AC-03, PR.AC-05, PR.IR-02]
-- nis2: [Art. 21.2.a (Access control), Art. 21.2.g]
-- gdpr: [Art. 32 (Confidentiality/Integrity)]
-- cis_control: [v8 5.1, v8 6.1, v8 13.1]
+- "nist_csf_2: (PR.AC-01, PR.AC-03, PR.AC-05, PR.IR-02)"
+- "nis2: (Art. 21.2.a (Access control), Art. 21.2.g)"
+- "gdpr: (Art. 32 (Confidentiality/Integrity))"
+- "cis_control: (v8 5.1, v8 6.1, v8 13.1)"
 scope: [Identity, Windows Server, AD DS, Kerberos]
 priority: P0 - Mission Critical
 status: Draft

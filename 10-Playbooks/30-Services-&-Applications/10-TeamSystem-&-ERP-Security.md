@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-ERP-TS
 title: "TeamSystem & ERP Security"
 frameworks:
-- nist_csf_2: [PR.AC-01, PR.DS-01, PR.DS-10, PR.PS-01]
-- nis2: [Art. 21.2.a, Art. 21.2.c, Art. 21.2.j (Hygiene/Training)]
-- gdpr: [Art. 32, Art. 33 (Breach Notification), Art. 35 (DPIA)]
-- cis_control: [v8 3.1, v8 4.1, v8 6.1, v8 14.1]
+- "nist_csf_2: (PR.AC-01, PR.DS-01, PR.DS-10, PR.PS-01)"
+- "nis2: (Art. 21.2.a, Art. 21.2.c, Art. 21.2.j (Hygiene/Training))"
+- "gdpr: (Art. 32, Art. 33 (Breach Notification), Art. 35 (DPIA))"
+- "cis_control: (v8 3.1, v8 4.1, v8 6.1, v8 14.1)"
 scope: [Application, ERP, TeamSystem, Financial Data]
 priority: P0 - Mission Critical
 status: Draft

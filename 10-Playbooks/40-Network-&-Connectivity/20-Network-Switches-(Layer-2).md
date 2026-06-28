@@ -3,9 +3,9 @@ type: Playbook
 id: SEC-NET-SW
 title: "Network Switches (Layer 2)"
 frameworks:
-- nist_csf_2: [PR.NW-01, PR.PT-03]
-- nis2: [Art. 21.2.a, Art. 21.2.c]
-- cis_control: [v8 12.1, v8 12.4]
+- "nist_csf_2: (PR.NW-01, PR.PT-03)"
+- "nis2: (Art. 21.2.a, Art. 21.2.c)"
+- "cis_control: (v8 12.1, v8 12.4)"
 scope: [Switching, VLANs, Physical Port Security]
 priority: P1
 status: Draft

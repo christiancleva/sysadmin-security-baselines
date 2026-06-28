@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-SOC-10
 title: "Incident Response & SIEM Dashboard"
 frameworks:
-- nist_csf_2: [RS.MA-01, RS.AN-01, RS.CO-02]
-- nis2: [Art. 21.2.e (Incident handling), Art. 23 (Reporting)]
-- gdpr: [Art. 33 (Notification), Art. 34]
-- cis_control: [v8 17.1, v8 17.3, v8 17.5]
+- "nist_csf_2: (RS.MA-01, RS.AN-01, RS.CO-02)"
+- "nis2: (Art. 21.2.e (Incident handling), Art. 23 (Reporting))"
+- "gdpr: (Art. 33 (Notification), Art. 34)"
+- "cis_control: (v8 17.1, v8 17.3, v8 17.5)"
 scope: [Incident Response, SOC, Governance]
 priority: P0 - Mission Critical
 status: Draft

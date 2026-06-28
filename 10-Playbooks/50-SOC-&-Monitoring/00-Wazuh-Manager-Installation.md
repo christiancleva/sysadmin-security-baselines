@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-SOC-00
 title: "Wazuh Manager Installation & Configuration"
 frameworks:
-- nist_csf_2: [PR.DS-10, DE.CM-01, DE.CM-03]
-- nis2: [Art. 21.2.e (Supply chain/Monitoring), Art. 21.2.f]
-- gdpr: [Art. 32 (Integrity/Confidentiality)]
-- cis_control: [v8 8.1, v8 8.2, v8 8.5]
+- "nist_csf_2: (PR.DS-10, DE.CM-01, DE.CM-03)"
+- "nis2: (Art. 21.2.e (Supply chain/Monitoring), Art. 21.2.f)"
+- "gdpr: (Art. 32 (Integrity/Confidentiality))"
+- "cis_control: (v8 8.1, v8 8.2, v8 8.5)"
 scope: [SIEM, SOC, Monitoring, Infrastructure]
 priority: P0 - Mission Critical
 status: Draft

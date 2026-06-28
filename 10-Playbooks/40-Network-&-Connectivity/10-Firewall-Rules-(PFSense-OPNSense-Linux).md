@@ -1,13 +1,17 @@
 ---
 type: Playbook
 id: SEC-NET-FW
-title: "Firewall Rules & Network Segmentation"
+title: Firewall Rules & Network Segmentation
 frameworks:
-- nist_csf_2: [PR.NW-01, PR.NW-02]
-- nis2: [Art. 21.2.a (Network security), Art. 21.2.c]
-- gdpr: [Art. 32 (Technical measures)]
-- cis_control: [v8 12.1, v8 12.2, v8 12.3, v8 12.8]
-scope: [Gateway, VLAN, Firewall, Routing]
+  - "nist_csf_2: (PR.NW-01, PR.NW-02)"
+  - "nis2: (Art. 21.2.a (Network security), Art. 21.2.c)"
+  - "gdpr: (Art. 32 (Technical measures))"
+  - "cis_control: (v8 4.1, v8 12.8)"
+scope:
+  - Gateway
+  - VLAN
+  - Firewall
+  - Routing
 priority: P0 - Critical
 status: Draft
 last_review: 2026-05-09

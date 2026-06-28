@@ -3,10 +3,10 @@ type: Playbook
 id: SEC-CONT-01
 title: "Docker Engine & Container Security"
 frameworks:
-- nist_csf_2: [PR.PS-06, PR.AC-03, PR.NW-01]
-- nis2: [Art. 21.2.f (Vulnerability management), Art. 21.2.g]
-- gdpr: [Art. 32 (Technical measures)]
-- cis_control: [v8 18.1, v8 18.2, v8 18.3]
+- "nist_csf_2: (PR.PS-06, PR.AC-03, PR.NW-01)"
+- "nis2: (Art. 21.2.f (Vulnerability management), Art. 21.2.g)"
+- "gdpr: (Art. 32 (Technical measures))"
+- "cis_control: (v8 18.1, v8 18.2, v8 18.3)"
 scope: [Containers, Virtualization, Microservices]
 priority: P1 - High
 status: Draft
